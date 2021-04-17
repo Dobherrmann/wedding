@@ -1,0 +1,75 @@
+.picture-container {
+  height: 100%;
+  width: clac(100%-3rem);
+  display: flex;
+  background-color: #eee;
+  margin: 0 1rem 0 1rem;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1.5rem;
+  grid-template-areas:
+    "pic1 pic2 pic4 pic6"
+    "pic1 pic5 pic7 pic3"
+    "pic9 pic10 pic11 pic3"
+    "pic9 pic10 pic11 pic8";
+}
+
+.gallery-pic {
+  width: 100%;
+  height: 25rem;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic1 {
+  min-height: 51.5rem;
+  grid-area: pic1;
+}
+
+.pic2 {
+  grid-area: pic2;
+}
+
+.pic3 {
+  min-height: 51.5rem;
+  grid-area: pic3;
+}
+
+.pic4 {
+  grid-area: pic4;
+}
+
+.pic5 {
+  grid-area: pic5;
+}
+
+.pic6 {
+  grid-area: pic6;
+}
+.pic7 {
+  grid-area: pic7;
+}
+.pic8 {
+  grid-area: pic8;
+}
+.pic9 {
+  min-height: 51.5rem;
+  grid-area: pic9;
+}
+.pic10 {
+  min-height: 51.5rem;
+  grid-area: pic10;
+}
+.pic11 {
+  min-height: 51.5rem;
+  grid-area: pic11;
+}
