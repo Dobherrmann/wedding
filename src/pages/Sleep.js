@@ -8,7 +8,7 @@ class Sleep extends Component {
     render() {
         return (
             <div>
-                Übernachtunen
+                Übernachtungen
             </div>
         );
     }
