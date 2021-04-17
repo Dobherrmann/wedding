@@ -8,7 +8,7 @@ class Sleep extends Component {
     render() {
         return (
             <div>
-                Übernachtungen
+                Unser Übernachtungsvorschläge
             </div>
         );
     }
