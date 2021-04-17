@@ -8,7 +8,10 @@ class Sleep extends Component {
     render() {
         return (
             <div>
-                Unser Übernachtungsvorschläge
+                Unser Übernachtungsvorschläge:
+                asjdahs
+                öslajd
+                öaosjd
             </div>
         );
     }
