@@ -1,4 +1,7 @@
-a { text-decoration: none; }
+a {
+  text-decoration: none;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -9,12 +12,11 @@ a { text-decoration: none; }
   z-index: 1;
 }
 
-.nav-ournames{
+.nav-ournames {
   align-self: center;
   color: #1b2714;
   font-size: 2rem;
   font-weight: lighter;
-  
 }
 
 .img-mt {
@@ -22,7 +24,7 @@ a { text-decoration: none; }
   height: 72px;
 }
 
-.btn-container{
+.btn-container {
   border: solid;
   border-width: 0px 1px 0px 0px;
   border-color: #e4dad0ff;
@@ -49,35 +51,36 @@ a { text-decoration: none; }
   align-items: center;
 }
 
-
-
-.btn-group .btn-container:last-of-type{
-  border:none;
+.btn-group .btn-container:last-of-type {
+  border: none;
 }
-
-
 
 .btn-underline-container:hover .underline {
   background-color: #6e7567;
   width: 65%;
-  animation: example 1s ;
-
+  animation: example 1s;
 }
 
-.disabled{
+.disabled {
   pointer-events: none;
 }
-.disabled .underline{
+
+.disabled .underline {
   width: 65%;
 }
 
-
 @keyframes example {
-  0% {width: 0%;}
-  75% {width: 75%;}
-  100% {width: 65%;}
+  0% {
+    width: 0%;
+  }
 
+  75% {
+    width: 75%;
+  }
 
+  100% {
+    width: 65%;
+  }
 }
 
 .button {
@@ -91,6 +94,7 @@ a { text-decoration: none; }
   border: none;
   cursor: pointer;
 }
+
 .underline {
   position: relative;
   background-color: #6e7567;
