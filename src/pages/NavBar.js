@@ -19,41 +19,41 @@ class NavBar extends Component {
     }
 
     render() {
+        const htmlElement = 
+            <div className="nav-container">
+            <div className="nav-ournames">
+                Maria & Thibault
+            </div>
+            <div className="btn-group">
+                < Link to='/' className="btn-container">{this._createButton(0, "disabled")}</Link>
+                < Link to='/Pictures' className="btn-container">{this._createButton(1)}</Link>
+                < Link to='/Timeline' className="btn-container">{this._createButton(2)}</Link>
+                < Link to='/DayTrips' className="btn-container">{this._createButton(3)}</Link>
+                < Link to='/Sleep' className="btn-container">{this._createButton(4)}</Link>
+            </div>
+        </div >
+        
         this._getActPage();
         return (
-            <div className="nav-container">
-                <div className="nav-ournames">
-                    Maria & Thibault
-                </div>
-                <div className="btn-group">
-                    < Link to='/' className="btn-container">{this._createButton(0)}</Link>
-                    < Link to='/Pictures' className="btn-container">{this._createButton(1)}</Link>
-                    < Link to='/Timeline' className="btn-container">{this._createButton(2)}</Link>
-                    < Link to='/DayTrips' className="btn-container">{this._createButton(3)}</Link>
-                    < Link to='/Sleep' className="btn-container">{this._createButton(4)}</Link>
-                </div>
-            </div >
+            htmlElement
+            
         )
     }
 
-    _createButton(btnIndex) {
+    _createButton(btnIndex, addClass) {
         return (
-            <div className="btn-underline-container" id={this.state.btnIds[btnIndex]}>
-                <button type="button" className={this.state.btnClasses[btnIndex]}>{this.state.btnTexts[btnIndex]}</button>
+            <div className={"btn-underline-container "+addClass} id={this.state.btnIds[btnIndex]}>
+                <button type="button" className={[this.state.btnClasses[btnIndex]]}>{this.state.btnTexts[btnIndex]}</button>
                 <div className="underline" />
             </div>
         );
     }
 
     _getActPage() {
-        // const maxWidth = "65%";
-        // const minWidth = "0";
         const actPageURL = this.props.location.pathname;
         for (let i = 0; i < this.state.btnIds.length; i++) {
             const btnElement = document.getElementById(this.state.btnIds[i]);
             if (btnElement !== null && btnElement !== undefined) {
-                // const underlineElement = btnElement.lastElementChild;
-                // actPageURL === this.state.pageNames[i] ? underlineElement.style.width = maxWidth : underlineElement.style.width = minWidth;
                 actPageURL === this.state.pageNames[i] ? btnElement.classList.add("disabled") : btnElement.classList.remove("disabled");
             }
         }
