@@ -41,19 +41,8 @@ function Home() {
             </div>
 
             <div>
-
-
-
-
-
-
-
                 Nach unserer Verlobung am 31.1.2021 freuen wir uns nun gemeinsam mit euch auf die bevorstehende Hochzeit und viele, viele weitere glückliche Jahre.
             </div>
-            <div>
-                5 years later, we’ve spent a 6-month stint in Queenstown, bought our very first home, and welcomed 2 mischievous kittens to our family. After travelling through New Zealand, Kurt finally popped the question – and Jemima said yes!
-            </div>
-
         </div>
     )
 }
