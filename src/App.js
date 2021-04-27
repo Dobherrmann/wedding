@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Timeline from './pages/Timeline';
 import NavBar from './pages/NavBar';
 import Pictures from './pages/Pictures';
-import Daytrips from './pages/DayTrips';
+import Daytrips from './pages/DayTripsV2';
 import Sleep from './pages/Sleep';
 
 
@@ -19,7 +19,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route exact path='/Pictures' component={Pictures} />
         <Route exact path='/Timeline' component={Timeline} />
-        <Route exact path='/DayTrips' component={Daytrips} />
+        <Route exact path='/DayTripsV2' component={Daytrips} />
         <Route exact path='/Sleep' component={Sleep} />
       </Router>
 

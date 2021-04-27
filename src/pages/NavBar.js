@@ -28,7 +28,7 @@ class NavBar extends Component {
                 < Link to='/' className="btn-container">{this._createButton(0, "disabled")}</Link>
                 < Link to='/Pictures' className="btn-container">{this._createButton(1)}</Link>
                 < Link to='/Timeline' className="btn-container">{this._createButton(2)}</Link>
-                < Link to='/DayTrips' className="btn-container">{this._createButton(3)}</Link>
+                < Link to='/DayTripsV2' className="btn-container">{this._createButton(3)}</Link>
                 < Link to='/Sleep' className="btn-container">{this._createButton(4)}</Link>
             </div>
         </div >
