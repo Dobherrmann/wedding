@@ -1,0 +1,87 @@
+.daytrips-headertext {
+  align-self: center;
+  color: #1b2714;
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 1rem 0 2rem 0;
+}
+
+.card-container {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  margin: 1.5rem;
+}
+
+.card-pic-container {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  /* display: flexbox; */
+  position: relative;
+}
+
+.card-pic-container .card-daytrips-pic {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.card-pic-container .card-daytrips-header {
+  color: #fff;
+  font-size: 30px;
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  opacity: 0;
+  margin: 0;
+  transition: 0.4s;
+}
+
+.card-pic-container .card-daytrips-border{
+  position: absolute;
+  z-index: 1;
+  width: 90%;
+  height: 90%;
+  background-color: transparent;
+  top: 5%;
+  left: 5%;
+  border: #fff solid;
+  border-width: 1px;
+  opacity: 0.12;
+  transition: 0.4s;
+}
+
+.card-pic-container:hover .card-daytrips-header{
+  opacity: 0.63;
+}
+
+.card-pic-container:hover .card-daytrips-border{
+  opacity: 0.63;
+}
+
+
+.card-daytrips-text-container-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0.75rem 0 0.75rem 0;
+  font-size: 1.5rem;
+  color: #1b2714;
+  font-weight: lighter;
+}
