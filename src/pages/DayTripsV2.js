@@ -31,7 +31,7 @@ class DayTrips extends Component {
                 <div className="daytrips-headertext">
                     Ausflüge
                 </div>
-                <div>
+                <div className="daytrips-subheadertext">
                     Wenn ihr die Gelegenheit nutzen möchtet und euren Aufenthalt zu einem (Kurz-)Urlaub ausweiten wollt, haben wir folgende Empfehlungen
                 </div>
                 {this._creatCardContainer()}
@@ -67,7 +67,7 @@ class DayTrips extends Component {
                     <div className="card-daytrips-text-container-header" onClick={() => this._myCollapsFunction(cardNumber)}>
                        {/* Change to Button */}
                         <div>
-                            Beschreibung
+                            Ausflugs Tipp
                         </div>
                         <div>
                             {this.state.viewDetails[cardNumber] ? '-':'+'}

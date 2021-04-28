@@ -3,7 +3,10 @@
   color: #1b2714;
   font-size: 2rem;
   font-weight: lighter;
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 3rem 1rem 3rem;
+}
+.daytrips-subheadertext{
+  margin: 0 3rem 0 3rem;
 }
 
 .card-container {
