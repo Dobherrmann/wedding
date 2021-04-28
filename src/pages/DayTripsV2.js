@@ -41,23 +41,23 @@ class DayTrips extends Component {
 
 
     _myCollapsFunction(value) {
-        let anewState = Array(4).fill(false)
+        let anewState = this.state.viewDetails;
         anewState[value] = !this.state.viewDetails[value];
         this.setState({ viewDetails:anewState });
-        console.log("myFunc", this.state.viewDetails[value], value);
+        // console.log("myFunc", this.state.viewDetails[value], value);
     };
 
 
     _createCard(cardNumber, cardKey) {
         // picture, picTitle, pictext
         // this.state.pics[i], this.state.picTitle[i], this.state.texts[i]
-        console.log("cardNumber",cardNumber)
+        // console.log("cardNumber",cardNumber)
         return (
             <div className="card" key={cardKey}>
                 {/* oberer Container mit Bild*/}
                 <div className="card-pic-container">
 
-                    <img src={this.state.pics[cardNumber]} className="card-daytrcardNumberps-pic" alt="this is car" />
+                    <img src={this.state.pics[cardNumber]} className="card-daytrips-pic" alt="this is car" />
 
                     <h1 className="card-daytrips-header">{this.state.picTitle[cardNumber]}</h1>
                     <div className="card-daytrips-border"></div>
@@ -65,6 +65,7 @@ class DayTrips extends Component {
                 {/* unterer Container mit Text */}
                 <div className="card-daytrips-text-container">
                     <div className="card-daytrips-text-container-header" onClick={() => this._myCollapsFunction(cardNumber)}>
+                       {/* Change to Button */}
                         <div>
                             Beschreibung
                         </div>
@@ -76,28 +77,12 @@ class DayTrips extends Component {
                     {this.state.viewDetails[cardNumber] && (<div> {this.state.texts[cardNumber]} </div>)}
                 </div>
             </div>
-
-
-
-            // <div className="card" key={cardKey}>
-            //     <div className="card-inner">
-            //         <div className="card-front">
-            //             <div className="card-front-pic-container">
-            //                 <h1 className="card-front-daytrips-front-text">{picTitle}</h1>
-            //                 <img src={picture} className="card-front-daytrips-pics" alt="this is car" />
-            //             </div>
-            //         </div>
-            //         <div className="card-lower">
-            //             {pictext}
-            //         </div>
-            //     </div>
-            // </div>
         );
     };
 
     _creatCardContainer() {
         let cards = [];
-        for (let i = 0; i < 1 /*this.state.texts.length*/; i++) {
+        for (let i = 0; i < this.state.texts.length; i++) {
             const myKey = `cardkey-${this.state.pics[i]}`
             cards[i] = this._createCard(i, myKey);
         }
