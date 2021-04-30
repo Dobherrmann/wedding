@@ -13,7 +13,7 @@ class NavBar extends Component {
             btnIds: ["id-btn-container-ourstory", "id-btn-container-pics", "id-btn-container-timeline", "id-btn-container-travels", "id-btn-container-hotels"],
             btnTexts: ["Unsere Geschichte", "Fotos", "Ablauf", "Ausflüge", "Übernachtungen"],
             btnClasses: ["button", "button", "button", "button", "button"],
-            pageNames: ["/", "/Pictures", "/Timeline", "/DayTrips", "/Sleep"]
+            pageNames: ["/", "/Pictures", "/Timeline", "/DayTripsV2", "/Sleep"]
 
         };
     }
