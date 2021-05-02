@@ -71,11 +71,17 @@
 }
 .container-ourstory-text > .ourstory-pic {
   flex-basis: 30%;
-  order: 2;
+  margin: 0 2rem 0 2rem;
 }
 
-.container-ourstory-text > p {
+.container-ourstory-text > .ourstory-text-right {
   color: #cd5c5c;
   padding-right: 2.5rem;
-  text-align: start;
+  text-align: left;
+}
+
+.container-ourstory-text > .ourstory-text-left {
+  color: lime;
+  padding-right: 2.5rem;
+  text-align: left;
 }

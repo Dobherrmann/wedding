@@ -3,8 +3,12 @@ import '../styles/Home.css';
 import ImgMuenster from '../pictures/muenster.jpg'
 
 import Pic1 from '../pictures/pic_1.jpg';
-import Pic2 from '../pictures/pic_3.jpg';
-import Pic3 from '../pictures/pic_4.jpg';
+import Pic2 from '../pictures/pic_2.jpg';
+import Pic3 from '../pictures/pic_3.jpg';
+import Pic4 from '../pictures/pic_4.jpg';
+import Pic5 from '../pictures/pic_5.jpg';
+import Pic6 from '../pictures/pic_6.jpg';
+import Pic7 from '../pictures/pic_7.jpg';
 
 
 class Home extends Component {
@@ -19,14 +23,17 @@ class Home extends Component {
             `Nach unserer Verlobung am 31.1.2021 freuen wir uns nun gemeinsam mit euch auf die bevorstehende Hochzeit und viele, viele weitere glückliche Jahre.`
 
         ],
-        pics:[Pic1,Pic2,Pic3,Pic1,Pic2,Pic3,Pic1,Pic2,Pic3]
+        pics:[Pic1,Pic2,Pic3,Pic4,Pic5,Pic6,Pic7]
     }
     render() {
 
-        let texts = [];
+        let textblock = [];
 
         for (let i = 0; i < this.state.textOurStory.length; i++) {
-            texts[i] = this._textblockPicLeft(i);
+            // console.log(i,"i%2", i%2)
+            const myKey = `cardkey-landingpage-${this.state.pics[i].toString()}`
+            // console.log("myKey",myKey)
+            textblock[i] = i%2 === 0 ? this._textblockPicLeft(i,myKey) : this._textblockPicRight(i,myKey);
         }
 
 
@@ -47,23 +54,32 @@ class Home extends Component {
                     <div className="ourstory-subheader">
                         Gut, ich denke, wir lassen die Bombe platzen und versorgen euch mit dem ein oder anderen Detail.
                     </div>
-                    {texts}
+                    {textblock}
                 </div>
             </div>
         )
     };
 
-    _textblockPicLeft(sectionNumber) {
+    _textblockPicLeft(sectionNumber, cardKey) {
+        // console.log("left")
         return (
-            <div className="container-ourstory-text">
-                
+            <div className="container-ourstory-text" key={cardKey}>
                 <img src={this.state.pics[sectionNumber]} className="ourstory-pic" alt="this is car" />
-                <p>{this.state.textOurStory[sectionNumber]}</p>
+                <p className="ourstory-text-right">{this.state.textOurStory[sectionNumber]}</p>
             </div >
         )
 
-    }
+    };
 
+    _textblockPicRight(sectionNumber, cardKey) {
+        // console.log("right")
+        return (
+            <div className="container-ourstory-text" key={cardKey}>
+                <p className="ourstory-text-left">{this.state.textOurStory[sectionNumber]}</p>
+                <img src={this.state.pics[sectionNumber]} className="ourstory-pic" alt="this is car" />
+            </div >
+        )
+    };
 }
 
 export default Home;
