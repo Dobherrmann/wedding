@@ -1,24 +1,47 @@
-.sleep-container{
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.sleep-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.sleep-card{
-    margin: 1rem 2rem;
-    border-radius: 4px;
-    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.03);
-    min-width: 300px;
-    max-width: 600px;
+.sleep-card {
+  margin: 1rem 2rem;
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.03);
+  width: 45vw;
+  min-width: 300px;
+  max-width: 1300px;
 }
 
-.sleep-card-header{
-    font-weight: lighter;
+.sleep-card-header {
+  font-weight: lighter;
 }
 
-.sleep-card-text{
-    margin: 2rem;
+.sleep-card-text {
+  margin: 2rem;
+}
+.sleep-card-link {
+  margin: 0rem 0 2rem 0;
+}
+
+
+
+.mylink:link {
+  color: black;
+  text-decoration: none;
+}
+.mylink:visited {
+  color: black;
+  text-decoration: none;
+}
+.mylink:hover {
+  color: grey;
+  text-decoration: none;
+}
+.mylink:active {
+  color: black;
+  text-decoration: none;
 }
