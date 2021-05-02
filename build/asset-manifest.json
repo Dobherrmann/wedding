@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e757125.chunk.css",
+    "main.js": "/static/js/main.01423c22.chunk.js",
+    "main.js.map": "/static/js/main.01423c22.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.44971e34.js",
+    "runtime-main.js.map": "/static/js/runtime-main.44971e34.js.map",
+    "static/js/2.ba7a1db1.chunk.js": "/static/js/2.ba7a1db1.chunk.js",
+    "static/js/2.ba7a1db1.chunk.js.map": "/static/js/2.ba7a1db1.chunk.js.map",
+    "static/js/3.8c7c7eac.chunk.js": "/static/js/3.8c7c7eac.chunk.js",
+    "static/js/3.8c7c7eac.chunk.js.map": "/static/js/3.8c7c7eac.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9e757125.chunk.css.map": "/static/css/main.9e757125.chunk.css.map",
+    "static/js/2.ba7a1db1.chunk.js.LICENSE.txt": "/static/js/2.ba7a1db1.chunk.js.LICENSE.txt",
+    "static/media/20170713_122837.a0f793c2.jpg": "/static/media/20170713_122837.a0f793c2.jpg",
+    "static/media/Bastei.52592801.jpg": "/static/media/Bastei.52592801.jpg",
+    "static/media/BelantisLeipzig.27e4c523.JPG": "/static/media/BelantisLeipzig.27e4c523.JPG",
+    "static/media/IMG_1659.1a1f2afb.JPG": "/static/media/IMG_1659.1a1f2afb.JPG",
+    "static/media/muenster.1303a1aa.jpg": "/static/media/muenster.1303a1aa.jpg",
+    "static/media/pic_1.a8da13f4.jpg": "/static/media/pic_1.a8da13f4.jpg",
+    "static/media/pic_10.0eef4e59.jpg": "/static/media/pic_10.0eef4e59.jpg",
+    "static/media/pic_11.f9a73246.jpg": "/static/media/pic_11.f9a73246.jpg",
+    "static/media/pic_12.1736ffdb.jpg": "/static/media/pic_12.1736ffdb.jpg",
+    "static/media/pic_2.a8da13f4.jpg": "/static/media/pic_2.a8da13f4.jpg",
+    "static/media/pic_3.6c50e61b.jpg": "/static/media/pic_3.6c50e61b.jpg",
+    "static/media/pic_4.9606248a.jpg": "/static/media/pic_4.9606248a.jpg",
+    "static/media/pic_5.f1e3c97e.jpg": "/static/media/pic_5.f1e3c97e.jpg",
+    "static/media/pic_6.90670463.jpg": "/static/media/pic_6.90670463.jpg",
+    "static/media/pic_7.c6a2ccdc.jpg": "/static/media/pic_7.c6a2ccdc.jpg",
+    "static/media/pic_8.d79cf86c.jpg": "/static/media/pic_8.d79cf86c.jpg",
+    "static/media/pic_9.b891f3e6.jpg": "/static/media/pic_9.b891f3e6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44971e34.js",
+    "static/js/2.ba7a1db1.chunk.js",
+    "static/css/main.9e757125.chunk.css",
+    "static/js/main.01423c22.chunk.js"
+  ]
+}
