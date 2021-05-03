@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/wedding/static/css/main.c0cafac7.chunk.css",
+    "main.js": "/wedding/static/js/main.a03d9d52.chunk.js",
+    "main.js.map": "/wedding/static/js/main.a03d9d52.chunk.js.map",
+    "runtime-main.js": "/wedding/static/js/runtime-main.cf70823f.js",
+    "runtime-main.js.map": "/wedding/static/js/runtime-main.cf70823f.js.map",
+    "static/js/2.ba7a1db1.chunk.js": "/wedding/static/js/2.ba7a1db1.chunk.js",
+    "static/js/2.ba7a1db1.chunk.js.map": "/wedding/static/js/2.ba7a1db1.chunk.js.map",
+    "static/js/3.8c7c7eac.chunk.js": "/wedding/static/js/3.8c7c7eac.chunk.js",
+    "static/js/3.8c7c7eac.chunk.js.map": "/wedding/static/js/3.8c7c7eac.chunk.js.map",
+    "index.html": "/wedding/index.html",
+    "static/css/main.c0cafac7.chunk.css.map": "/wedding/static/css/main.c0cafac7.chunk.css.map",
+    "static/js/2.ba7a1db1.chunk.js.LICENSE.txt": "/wedding/static/js/2.ba7a1db1.chunk.js.LICENSE.txt",
+    "static/media/20170713_122837.a0f793c2.jpg": "/wedding/static/media/20170713_122837.a0f793c2.jpg",
+    "static/media/Bastei.52592801.jpg": "/wedding/static/media/Bastei.52592801.jpg",
+    "static/media/BelantisLeipzig.27e4c523.JPG": "/wedding/static/media/BelantisLeipzig.27e4c523.JPG",
+    "static/media/IMG_1659.1a1f2afb.JPG": "/wedding/static/media/IMG_1659.1a1f2afb.JPG",
+    "static/media/muenster.1303a1aa.jpg": "/wedding/static/media/muenster.1303a1aa.jpg",
+    "static/media/pic_1.a8da13f4.jpg": "/wedding/static/media/pic_1.a8da13f4.jpg",
+    "static/media/pic_10.0eef4e59.jpg": "/wedding/static/media/pic_10.0eef4e59.jpg",
+    "static/media/pic_11.f9a73246.jpg": "/wedding/static/media/pic_11.f9a73246.jpg",
+    "static/media/pic_12.1736ffdb.jpg": "/wedding/static/media/pic_12.1736ffdb.jpg",
+    "static/media/pic_2.a8da13f4.jpg": "/wedding/static/media/pic_2.a8da13f4.jpg",
+    "static/media/pic_3.6c50e61b.jpg": "/wedding/static/media/pic_3.6c50e61b.jpg",
+    "static/media/pic_4.9606248a.jpg": "/wedding/static/media/pic_4.9606248a.jpg",
+    "static/media/pic_5.f1e3c97e.jpg": "/wedding/static/media/pic_5.f1e3c97e.jpg",
+    "static/media/pic_6.90670463.jpg": "/wedding/static/media/pic_6.90670463.jpg",
+    "static/media/pic_7.c6a2ccdc.jpg": "/wedding/static/media/pic_7.c6a2ccdc.jpg",
+    "static/media/pic_8.d79cf86c.jpg": "/wedding/static/media/pic_8.d79cf86c.jpg",
+    "static/media/pic_9.b891f3e6.jpg": "/wedding/static/media/pic_9.b891f3e6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf70823f.js",
+    "static/js/2.ba7a1db1.chunk.js",
+    "static/css/main.c0cafac7.chunk.css",
+    "static/js/main.a03d9d52.chunk.js"
+  ]
+}
