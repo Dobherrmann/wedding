@@ -2,47 +2,85 @@ import React, { Component } from 'react';
 import '../styles/NavBar.css';
 import { withRouter, Link } from 'react-router-dom';
 
-
 class NavBar extends Component {
-    state = {}
-
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            btnIds: ["id-btn-container-ourstory", "id-btn-container-pics", "id-btn-container-timeline", "id-btn-container-travels", "id-btn-container-hotels"],
-            btnTexts: ["Unsere Geschichte", "Fotos", "Ablauf", "Ausflüge", "Übernachtungen"],
-            btnClasses: ["button", "button", "button", "button", "button"],
-            pageNames: ["/", "/Pictures", "/Timeline", "/DayTripsV2", "/Sleep"]
-
-        };
+    state = {
+        btnIds: ["id-btn-container-ourstory", "id-btn-container-pics", "id-btn-container-timeline", "id-btn-container-travels", "id-btn-container-hotels"],
+        btnTexts: ["Unsere Geschichte", "Fotos", "Ablauf", "Ausflüge", "Übernachtungen"],
+        btnClasses: ["button", "button", "button", "button", "button"],
+        pageNames: ["/", "/Pictures", "/Timeline", "/DayTripsV2", "/Sleep"],
+        navBarExpended: false,
     }
 
+    // constructor(props) {
+    //     super(props);
+    // }
+
     render() {
-        const htmlElement = 
+        const htmlElement = (
             <div className="nav-container">
-            <div className="nav-ournames">
-                Maria & Thibault
-            </div>
-            <div className="btn-group">
-                < Link to='/' className="btn-container">{this._createButton(0, "disabled")}</Link>
-                < Link to='/Pictures' className="btn-container">{this._createButton(1)}</Link>
-                < Link to='/Timeline' className="btn-container">{this._createButton(2)}</Link>
-                < Link to='/DayTripsV2' className="btn-container">{this._createButton(3)}</Link>
-                < Link to='/Sleep' className="btn-container">{this._createButton(4)}</Link>
-            </div>
-        </div >
-        
+                <div className="nav-ournames">
+                    Maria & Thibault
+                </div>
+                <button className="burger-button" onClick={() => this._burgerMenue()} />
+                <div className="btn-group">
+                    < Link to='/' className="btn-container collapse">{this._createButton(0, "disabled")}</Link>
+                    < Link to='/Pictures' className="btn-container collapse">{this._createButton(1)}</Link>
+                    < Link to='/Timeline' className="btn-container collapse">{this._createButton(2)}</Link>
+                    < Link to='/DayTripsV2' className="btn-container collapse">{this._createButton(3)}</Link>
+                    < Link to='/Sleep' className="btn-container collapse">{this._createButton(4)}</Link>
+                </div>
+
+            </div >
+        );
         this._getActPage();
         return (
             htmlElement
-            
+
         )
     }
 
+
+    _burgerMenue() {
+        // console.log("BurgerFunc", this.state.navBarExpended)
+        const burgerButtonElement = document.getElementsByClassName("burger-button");
+        // console.log(burgerButtonElement[0].classList)
+
+        this.state.navBarExpended ? this._collapseBurgerMenue(burgerButtonElement[0]) : this._expandBurgerMenue(burgerButtonElement[0]);
+
+
+    }
+
+    _expandBurgerMenue(burgerMenueElement) {
+        // console.log("Ausklappen")
+        this.setState({navBarExpended: true});
+        burgerMenueElement.classList.add("close");
+
+        const navButtons = document.getElementsByClassName("btn-container");
+        // console.log("navButtons", navButtons)
+        // console.log("<navButtons.length", navButtons.length)
+        for (let i = 0; i < navButtons.length; i++) {
+            navButtons[i].classList.remove("collapse");
+        }
+    }
+
+
+    _collapseBurgerMenue(burgerMenueElement) {
+        // console.log("Einklappen")
+        this.setState({navBarExpended: false});
+        burgerMenueElement.classList.remove("close");
+
+        const navButtons = document.getElementsByClassName("btn-container");
+        // console.log("navButtons", navButtons)
+        // console.log("<navButtons.length", navButtons.length)
+        for (let i = 0; i < navButtons.length; i++) {
+            navButtons[i].classList.add("collapse");
+        }
+    }
+
+
     _createButton(btnIndex, addClass) {
         return (
-            <div className={"btn-underline-container "+addClass} id={this.state.btnIds[btnIndex]}>
+            <div className={"btn-underline-container " + addClass} id={this.state.btnIds[btnIndex]}>
                 <button type="button" className={[this.state.btnClasses[btnIndex]]}>{this.state.btnTexts[btnIndex]}</button>
                 <div className="underline" />
             </div>

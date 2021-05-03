@@ -76,19 +76,19 @@
 }
 
 .card-pic-container:hover .card-daytrips-header{
-  opacity: 0.63;
+  opacity: 0.82;
 }
 
 .card-pic-container:hover .card-daytrips-border{
-  opacity: 0.63;
+  opacity: 0.82;
 }
 
 .card-pic-container:active .card-daytrips-header{
-  opacity: 0.63;
+  opacity: 0.82;
 }
 
 .card-pic-container:active .card-daytrips-border{
-  opacity: 0.63;
+  opacity: 0.82;
 }
 
 /* Add effect on pressed for mobile */
