@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.c0cafac7.chunk.css",
-    "main.js": "/wedding/static/js/main.a03d9d52.chunk.js",
-    "main.js.map": "/wedding/static/js/main.a03d9d52.chunk.js.map",
+    "main.css": "/wedding/static/css/main.155ae432.chunk.css",
+    "main.js": "/wedding/static/js/main.9ad654b1.chunk.js",
+    "main.js.map": "/wedding/static/js/main.9ad654b1.chunk.js.map",
     "runtime-main.js": "/wedding/static/js/runtime-main.cf70823f.js",
     "runtime-main.js.map": "/wedding/static/js/runtime-main.cf70823f.js.map",
     "static/js/2.ba7a1db1.chunk.js": "/wedding/static/js/2.ba7a1db1.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.8c7c7eac.chunk.js": "/wedding/static/js/3.8c7c7eac.chunk.js",
     "static/js/3.8c7c7eac.chunk.js.map": "/wedding/static/js/3.8c7c7eac.chunk.js.map",
     "index.html": "/wedding/index.html",
-    "static/css/main.c0cafac7.chunk.css.map": "/wedding/static/css/main.c0cafac7.chunk.css.map",
+    "static/css/main.155ae432.chunk.css.map": "/wedding/static/css/main.155ae432.chunk.css.map",
     "static/js/2.ba7a1db1.chunk.js.LICENSE.txt": "/wedding/static/js/2.ba7a1db1.chunk.js.LICENSE.txt",
     "static/media/20170713_122837.a0f793c2.jpg": "/wedding/static/media/20170713_122837.a0f793c2.jpg",
     "static/media/Bastei.52592801.jpg": "/wedding/static/media/Bastei.52592801.jpg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.cf70823f.js",
     "static/js/2.ba7a1db1.chunk.js",
-    "static/css/main.c0cafac7.chunk.css",
-    "static/js/main.a03d9d52.chunk.js"
+    "static/css/main.155ae432.chunk.css",
+    "static/js/main.9ad654b1.chunk.js"
   ]
 }
