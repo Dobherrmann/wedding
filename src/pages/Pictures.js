@@ -29,8 +29,6 @@ function Pictures() {
                 <img src={Pic9} className="gallery-pic pic9" alt="this is car" />
                 <img src={Pic10} className="gallery-pic pic10" alt="this is car" />
                 <img src={Pic11} className="gallery-pic pic11" alt="this is car" />
-                
-
             </div>
         </div>
     )

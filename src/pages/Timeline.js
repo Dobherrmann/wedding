@@ -25,20 +25,6 @@ class Timeline extends Component {
         ],
     }
 
-    //     Donnerstag
-    // •	Anreise
-    // •	Wer schon da ist und Lust hat: Grillen bei Marias Eltern in Burgstädt 
-
-    // Freitag
-    // •	Trauung in der Stadtkirche Burgstädt
-    // •	Sektempfang und Feier im Schlosshotel Rabenstein
-
-    // Samstag
-    // •	gemeinsames Frühstück, für alle, die im Schlosshotel übernachtet haben
-    // •	wer möchte: kleiner Ausflug in die Umgebung
-
-
-
     // https://codepen.io/htmlcodex/pen/LYGjPgV?editors=1100
     render() {
         console.log("samstag", this.state.day[2].event[1].eventTitle)

@@ -73,3 +73,22 @@
   min-height: 51.5rem;
   grid-area: pic11;
 }
+
+
+@media (max-width: 767.98px) {
+  .image-gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .picture-container {
+    background-color: unset;
+  }
+
+  .gallery-pic{
+    margin: 1rem 0;
+    height: max-content;
+    object-fit: cover;
+    min-height: unset;
+  }
+
+}
