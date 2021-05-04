@@ -23,7 +23,7 @@ class NavBar extends Component {
                 </div>
                 <button className="burger-button" onClick={() => this._burgerMenue()} />
                 <div className="btn-group">
-                    < Link to='/' className="btn-container collapse">{this._createButton(0, "disabled")}</Link>
+                    < Link to='/Wedding' className="btn-container collapse">{this._createButton(0, "disabled")}</Link>
                     < Link to='/Pictures' className="btn-container collapse">{this._createButton(1)}</Link>
                     < Link to='/Timeline' className="btn-container collapse">{this._createButton(2)}</Link>
                     < Link to='/DayTripsV2' className="btn-container collapse">{this._createButton(3)}</Link>
@@ -77,11 +77,17 @@ class NavBar extends Component {
         }
     }
 
+    
+
+
+    
 
     _createButton(btnIndex, addClass) {
+        const burgerButtonElement = document.getElementsByClassName("burger-button");
+        
         return (
             <div className={"btn-underline-container " + addClass} id={this.state.btnIds[btnIndex]}>
-                <button type="button" className={[this.state.btnClasses[btnIndex]]}>{this.state.btnTexts[btnIndex]}</button>
+                <button type="button" className={[this.state.btnClasses[btnIndex]]} onClick={() => this._collapseBurgerMenue(burgerButtonElement[0])}>{this.state.btnTexts[btnIndex]}</button>
                 <div className="underline" />
             </div>
         );

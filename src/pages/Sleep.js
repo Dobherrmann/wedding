@@ -41,7 +41,6 @@ class Sleep extends Component {
         );
     };
 
-
     _createCard(mylodings) {
         const link = <a className="mylink" href={mylodings.link} rel="noreferrer" target="_blank">{mylodings.hotel} <FiExternalLink /></a>;
         return (
@@ -53,8 +52,6 @@ class Sleep extends Component {
             </div>
         )
     }
-
-
 }
 
 export default Sleep;

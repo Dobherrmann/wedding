@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 
-import Home from './pages/Home';
+import Wedding from './pages/Wedding';
 import Timeline from './pages/Timeline';
 import NavBar from './pages/NavBar';
 import Pictures from './pages/Pictures';
@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Router>
         <NavBar className="header-region" />
-        <Route exact path='/' component={Home} />
+        <Route exact path='/Wedding' component={Wedding} />
         <Route exact path='/Pictures' component={Pictures} />
         <Route exact path='/Timeline' component={Timeline} />
         <Route exact path='/DayTripsV2' component={Daytrips} />
