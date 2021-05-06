@@ -2,12 +2,15 @@ import React, { Component } from 'react';
 import '../styles/NavBar.css';
 import { withRouter, Link } from 'react-router-dom';
 
+import Logo from '../Logo.svg';
+
+
 class NavBar extends Component {
     state = {
         btnIds: ["id-btn-container-ourstory", "id-btn-container-pics", "id-btn-container-timeline", "id-btn-container-travels", "id-btn-container-hotels"],
         btnTexts: ["Unsere Geschichte", "Fotos", "Ablauf", "Ausflüge", "Übernachtungen"],
         btnClasses: ["button", "button", "button", "button", "button"],
-        pageNames: ["/", "/Pictures", "/Timeline", "/DayTripsV2", "/Sleep"],
+        pageNames: ["/Wedding", "/Pictures", "/Timeline", "/DayTripsV2", "/Sleep"],
         navBarExpended: false,
     }
 
@@ -19,7 +22,7 @@ class NavBar extends Component {
         const htmlElement = (
             <div className="nav-container">
                 <div className="nav-ournames">
-                    Maria & Thibault
+                <img src={Logo} className="our-logo" alt="this is car" />
                 </div>
                 <button className="burger-button" onClick={() => this._burgerMenue()} />
                 <div className="btn-group">
@@ -35,7 +38,6 @@ class NavBar extends Component {
         this._getActPage();
         return (
             htmlElement
-
         )
     }
 

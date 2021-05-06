@@ -1,0 +1,33 @@
+.footer-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 48px;
+  /* background-color: aqua; */
+}
+
+.impressum-button {
+  border: none;
+  background-color: transparent;
+  /* border-color: #e4dad0ff; */
+  /* text-decoration: none; */
+  cursor: pointer;
+}
+
+.impressum-button .underline {
+  background-color: #6e7567;
+  width: 65%;
+  animation: example 1s;
+  /* text-decoration: none; */
+}
+
+.btn-underline-container {
+  height: 42px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+}
