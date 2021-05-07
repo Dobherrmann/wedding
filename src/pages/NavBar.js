@@ -22,7 +22,7 @@ class NavBar extends Component {
         const htmlElement = (
             <div className="nav-container">
                 <div className="nav-ournames">
-                <img src={Logo} className="our-logo" alt="this is car" />
+                    <img src={Logo} className="our-logo" alt="this is car" />
                 </div>
                 <button className="burger-button" onClick={() => this._burgerMenue()} />
                 <div className="btn-group">
@@ -54,7 +54,7 @@ class NavBar extends Component {
 
     _expandBurgerMenue(burgerMenueElement) {
         // console.log("Ausklappen")
-        this.setState({navBarExpended: true});
+        this.setState({ navBarExpended: true });
         burgerMenueElement.classList.add("close");
 
         const navButtons = document.getElementsByClassName("btn-container");
@@ -68,7 +68,7 @@ class NavBar extends Component {
 
     _collapseBurgerMenue(burgerMenueElement) {
         // console.log("Einklappen")
-        this.setState({navBarExpended: false});
+        this.setState({ navBarExpended: false });
         burgerMenueElement.classList.remove("close");
 
         const navButtons = document.getElementsByClassName("btn-container");
@@ -79,14 +79,14 @@ class NavBar extends Component {
         }
     }
 
-    
 
 
-    
+
+
 
     _createButton(btnIndex, addClass) {
         const burgerButtonElement = document.getElementsByClassName("burger-button");
-        
+
         return (
             <div className={"btn-underline-container " + addClass} id={this.state.btnIds[btnIndex]}>
                 <button type="button" className={[this.state.btnClasses[btnIndex]]} onClick={() => this._collapseBurgerMenue(burgerButtonElement[0])}>{this.state.btnTexts[btnIndex]}</button>
