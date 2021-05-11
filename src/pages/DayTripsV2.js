@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/DayTripsV2.css';
 
-import DresdenPic from '../pictures/IMG_1659.JPG';
+import DresdenPic from '../pictures/IMG_1659.jpg';
 import ChemnitzPic from '../pictures/20170713_122837.jpg';
 import ErzgebirgePic from '../pictures/Bastei.jpg';
 import LeipzigPic from '../pictures/BelantisLeipzig.JPG';
