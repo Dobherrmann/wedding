@@ -42,7 +42,7 @@ class Home extends Component {
         return (
             <div className="container-welcome">
                 <div className="header-welcome">
-                    <img src={ImgMuenster} className="welcome-pic" alt="this is car" />
+                    <img src={ImgMuenster} className="welcome-pic" alt="picture will be loaded" />
                 </div>
                 <h1 className="header-welcome-lbl"> Willkommen</h1>
 
@@ -64,7 +64,7 @@ class Home extends Component {
         // console.log("left")
         return (
             <div className="container-ourstory-text" key={cardKey}>
-                <img src={this.state.pics[sectionNumber]} className="ourstory-pic" alt="this is car" />
+                <img src={this.state.pics[sectionNumber]} className="ourstory-pic" alt="picture will be loaded" />
                 <p className="ourstory-text-right">{this.state.textOurStory[sectionNumber]}</p>
             </div >
         )
@@ -76,7 +76,7 @@ class Home extends Component {
         return (
             <div className="container-ourstory-text" key={cardKey}>
                 <p className="ourstory-text-left">{this.state.textOurStory[sectionNumber]}</p>
-                <img src={this.state.pics[sectionNumber]} className="ourstory-pic" alt="this is car" />
+                <img src={this.state.pics[sectionNumber]} className="ourstory-pic" alt="picture will be loaded" />
             </div >
         )
     };

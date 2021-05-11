@@ -18,17 +18,17 @@ function Pictures() {
     return (
         <div className="picture-container">
             <div className="image-gallery">
-                <img src={Pic1} className="gallery-pic pic1" alt="this is car" />
-                <img src={Pic2} className="gallery-pic pic2" alt="this is car" />
-                <img src={Pic3} className="gallery-pic pic3" alt="this is car" />
-                <img src={Pic4} className="gallery-pic pic4" alt="this is car" />
-                <img src={Pic5} className="gallery-pic pic5" alt="this is car" />
-                <img src={Pic6} className="gallery-pic pic6" alt="this is car" />
-                <img src={Pic7} className="gallery-pic pic7" alt="this is car" />
-                <img src={Pic8} className="gallery-pic pic8" alt="this is car" />
-                <img src={Pic9} className="gallery-pic pic9" alt="this is car" />
-                <img src={Pic10} className="gallery-pic pic10" alt="this is car" />
-                <img src={Pic11} className="gallery-pic pic11" alt="this is car" />
+                <img src={Pic1} className="gallery-pic pic1" alt="picture will be loaded" />
+                <img src={Pic2} className="gallery-pic pic2" alt="picture will be loaded" />
+                <img src={Pic3} className="gallery-pic pic3" alt="picture will be loaded" />
+                <img src={Pic4} className="gallery-pic pic4" alt="picture will be loaded" />
+                <img src={Pic5} className="gallery-pic pic5" alt="picture will be loaded" />
+                <img src={Pic6} className="gallery-pic pic6" alt="picture will be loaded" />
+                <img src={Pic7} className="gallery-pic pic7" alt="picture will be loaded" />
+                <img src={Pic8} className="gallery-pic pic8" alt="picture will be loaded" />
+                <img src={Pic9} className="gallery-pic pic9" alt="picture will be loaded" />
+                <img src={Pic10} className="gallery-pic pic10" alt="picture will be loaded" />
+                <img src={Pic11} className="gallery-pic pic11" alt="picture will be loaded" />
             </div>
         </div>
     )

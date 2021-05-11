@@ -38,7 +38,7 @@ class DayTrips extends Component {
                     <div className="flip-card-front">
                         <div className="flip-card-front-pic-container">
                             <h1 className="flip-card-front-daytrips-front-text">{picTitle}</h1>
-                            <img src={picture} className="flip-card-front-daytrips-pics" alt="this is car" />
+                            <img src={picture} className="flip-card-front-daytrips-pics" alt="picture will be loaded" />
                         </div>
                     </div>
                     <div className="flip-card-back">

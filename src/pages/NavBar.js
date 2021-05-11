@@ -22,7 +22,7 @@ class NavBar extends Component {
         const htmlElement = (
             <div className="nav-container">
                 <div className="nav-ournames">
-                    <img src={Logo} className="our-logo" alt="this is car" />
+                    <img src={Logo} className="our-logo" alt="picture will be loaded" />
                 </div>
                 <button className="burger-button" onClick={() => this._burgerMenue()} />
                 <div className="btn-group">

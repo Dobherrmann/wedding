@@ -57,7 +57,7 @@ class DayTrips extends Component {
                 {/* oberer Container mit Bild*/}
                 <div className="card-pic-container">
 
-                    <img src={this.state.pics[cardNumber]} className="card-daytrips-pic" alt="this is car" />
+                    <img src={this.state.pics[cardNumber]} className="card-daytrips-pic" alt="picture will be loaded" />
 
                     <h1 className="card-daytrips-header">{this.state.picTitle[cardNumber]}</h1>
                     <div className="card-daytrips-border"></div>
