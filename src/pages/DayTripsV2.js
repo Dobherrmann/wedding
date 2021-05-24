@@ -3,7 +3,7 @@ import '../styles/DayTripsV2.css';
 
 import DresdenPic from '../pictures/IMG_1659.jpg';
 import ChemnitzPic from '../pictures/20170713_122837.jpg';
-import ErzgebirgePic from '../pictures/Bastei.jpg';
+import ErzgebirgePic from '../pictures/Erzgebirge.jpg';
 import LeipzigPic from '../pictures/BelantisLeipzig.JPG';
 
 class DayTrips extends Component {
@@ -11,10 +11,10 @@ class DayTrips extends Component {
         pics: [DresdenPic, ChemnitzPic, ErzgebirgePic, LeipzigPic],
         picTitle: ["Dresden", "Chemnitz", "Erzgebirge", "Leipzig"],
         texts: [
-            `Erkundet die Elbflorenz am besten bei einem Bummel durch die Altstadt vorbei an der Frauenkirche, Zwinger, Semperoper,... Besonders empfehlenswert ist ein Besuch im historischen Grünen Gewölbe, das sich im Stadtschloss befindet. In der näheren Umgebung gibt es z.B. Schloss Pillnitz oder auch das Weingut Schloss Wackerbarth zu bestaunen. Auf der Weiterreise macht unbedingt einen Stopp in der sächsische Schweiz. Mit ihren Sandsteinfelsen sollte dieses Naturerbe auf jeden Fall bei einer Wanderung erkundet werden.`,
-            `Einen Besuch ist sicher auch Chemnitz wert - immerhin europäische Kulturhauptstadt 2025-, mit einem Bummel durch die Innenstadt, einem Besuch in den Kunstsammlungen, dem Industriemuseum,… könnt ihr eintauchen in ein Stück sächsische Industriegeschichte und DDR-Architektur ;)`,
-            `Auch das nahe Erzgebirge bietet zahlreiche AusBflugsmöglichkeiten. Von Wanderungen auf Sachsens höchste Erhebung, dem Fichtelberg bis zu einem Besuch unter Tage im Besucherbergwerk. Solls ein bisschen weihnachtlich werden, besucht die „Manufaktur der Träume“ in Annaberg oder Seiffen mit seinen Schauwerkstätten und bestaunt Räuchermännchen, Schwibbögen, Nussknacker und Co.`,
-            `Last but not least ist auch Leipzig eine Reise wert. Als Bachstadt und Ort der friedlichen Montagsdemonstrationen hat sie geschichtlich einiges zu bieten, was ihr bei einem Bummel durch die Innenstadt erkunden könnt. Viele Cafés, Restaurants und Läden laden zum Bummeln und Shoppen ein. Weiterhin sollte ein Besuch im Zoo vor allem mit Kindern Pflichtprogramm sein. Für Wasser(sport)begeisterte auch das Geflecht an Kanälen oder das Naherholungsgebiete Cospudener See.`,
+            `Erkundet Elbflorenz am besten bei einem Bummel durch die Altstadt vorbei an der Frauenkirche, Zwinger, Semperoper,... Besonders empfehlenswert ist ein Besuch im historischen Grünen Gewölbe, das sich im Stadtschloss befindet. In der näheren Umgebung gibt es z.B. Schloss Pillnitz oder auch das Weingut Schloss Wackerbarth zu bestaunen. Auf der Weiterreise macht unbedingt einen Stopp in der sächsische Schweiz. Mit ihren Sandsteinfelsen sollte dieses Naturerbe auf jeden Fall bei einer Wanderung erkundet werden.`,
+            `Einen Besuch ist sicher auch Chemnitz wert - immerhin europäische Kulturhauptstadt 2025-, mit einem Bummel durch die Innenstadt, einem Besuch in den Kunstsammlungen, dem Industriemuseum,… könnt ihr in ein Stück sächsische Industriegeschichte eintauchen und DDR-Architektur bewundern ;)`,
+            `Das nahe Erzgebirge bietet zahlreiche Ausflugsmöglichkeiten. Angefangen von Wanderungen auf Sachsens höchste Erhebung, dem Fichtelberg, bis zu einem Besuch unter Tage im Besucherbergwerk. Solls ein bisschen weihnachtlich werden, besucht die „Manufaktur der Träume“ in Annaberg, oder Seiffen mit seinen Schauwerkstätten und bestaunt Räuchermännchen, Schwibbögen, Nussknacker und Co.`,
+            `Last but not least ist Leipzig eine Reise wert. Als Bachstadt und Ort der friedlichen Montagsdemonstrationen 1989 hat sie geschichtlich einiges zu bieten, was ihr bei einem Bummel durch die Innenstadt erkunden könnt. Viele Cafés, Restaurants und Geschäfte laden zum Flanieren und Shoppen ein. Gerade mit Kindern sollte ein Besuch im Zoo oder der Freizeitpark Belantis Pflichtprogramm sein. Für Wasser(sport)begeisterte hält das Geflecht an Kanälen oder das Naherholungsgebiete Cospudener See viele Betätigungsmöglichkeiten bereit.`,
         ],
         viewDetails: Array(4).fill(false),
     };
@@ -32,7 +32,7 @@ class DayTrips extends Component {
                     Ausflüge
                 </div>
                 <div className="daytrips-subheadertext">
-                    Wenn ihr die Gelegenheit nutzen möchtet und euren Aufenthalt zu einem (Kurz-)Urlaub ausweiten wollt, haben wir folgende Empfehlungen
+                    Wenn ihr die Gelegenheit nutzen möchtet und euren Aufenthalt zu einem (Kurz-)Urlaub ausweiten wollt, haben wir folgende Empfehlungen.
                 </div>
                 {this._creatCardContainer()}
             </div>
@@ -43,7 +43,7 @@ class DayTrips extends Component {
     _myCollapsFunction(value) {
         let anewState = this.state.viewDetails;
         anewState[value] = !this.state.viewDetails[value];
-        this.setState({ viewDetails:anewState });
+        this.setState({ viewDetails: anewState });
         // console.log("myFunc", this.state.viewDetails[value], value);
     };
 
@@ -65,14 +65,14 @@ class DayTrips extends Component {
                 {/* unterer Container mit Text */}
                 <div className="card-daytrips-text-container">
                     <div className="card-daytrips-text-container-header" onClick={() => this._myCollapsFunction(cardNumber)}>
-                       {/* Change to Button */}
+                        {/* Change to Button */}
                         <div>
                             Ausflugs Tipp
                         </div>
                         <div>
-                            {this.state.viewDetails[cardNumber] ? '-':'+'}
+                            {this.state.viewDetails[cardNumber] ? '-' : '+'}
                         </div>
-                         
+
                     </div>
                     {this.state.viewDetails[cardNumber] && (<div> {this.state.texts[cardNumber]} </div>)}
                 </div>

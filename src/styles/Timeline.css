@@ -97,11 +97,11 @@
 }
 
 .container.left .date {
-  right: -75px;
+  right: -100px;
 }
 
 .container.right .date {
-  left: -75px;
+  left: -100px;
 }
 
 .container .icon {
