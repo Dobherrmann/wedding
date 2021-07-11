@@ -5,7 +5,7 @@ import { withRouter, Link } from 'react-router-dom';
 import Logo from '../Logo.png';
 
 
-class NavBar extends Component {
+class Navbar extends Component {
     state = {
         btnIds: ["id-btn-container-ourstory", "id-btn-container-pics", "id-btn-container-timeline", "id-btn-container-travels", "id-btn-container-hotels"],
         btnTexts: ["Unsere Geschichte", "Fotos", "Ablauf", "Ausflüge", "Übernachtungen"],
@@ -26,11 +26,11 @@ class NavBar extends Component {
                 </div>
                 <button className="burger-button" onClick={() => this._burgerMenue()} />
                 <div className="btn-group">
-                    < Link to='/Wedding' className="btn-container collapse">{this._createButton(0, "disabled")}</Link>
-                    < Link to='/Pictures' className="btn-container collapse">{this._createButton(1)}</Link>
-                    < Link to='/Timeline' className="btn-container collapse">{this._createButton(2)}</Link>
-                    < Link to='/DayTripsV2' className="btn-container collapse">{this._createButton(3)}</Link>
-                    < Link to='/Sleep' className="btn-container collapse">{this._createButton(4)}</Link>
+                    < Link to='/wedding' className="btn-container collapse">{this._createButton(0, "disabled")}</Link>
+                    < Link to='/pictures' className="btn-container collapse">{this._createButton(1)}</Link>
+                    < Link to='/timeline' className="btn-container collapse">{this._createButton(2)}</Link>
+                    < Link to='/daytrips' className="btn-container collapse">{this._createButton(3)}</Link>
+                    < Link to='/sleep' className="btn-container collapse">{this._createButton(4)}</Link>
                 </div>
 
             </div >
@@ -106,4 +106,4 @@ class NavBar extends Component {
     }
 };
 
-export default withRouter(NavBar);
+export default withRouter(Navbar);
