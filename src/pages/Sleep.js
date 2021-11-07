@@ -10,7 +10,7 @@ class Sleep extends Component {
                 hotel: "Hotel Schloss Rabenstein",
                 text: [
                     `Ihr könnt gern gemeinsam mit uns am Ort der Feier übernachten.`,
-                    `Wir haben Zimmer für euch von Donnerstag bis Samstag reserviert. Bitte gebt uns Bescheid, wenn ihr davon Gebrauch machen wollt.`,
+                    `Wir haben Zimmer für euch von Donnerstag bis Sonntag reserviert. Bitte gebt uns Bescheid, wenn ihr davon Gebrauch machen wollt.`,
                     "Einzelzimmer 80,00€",
                     "Doppelzimmer 110,00€",
                     "First-Class-Zimmer 149,00€",
@@ -18,19 +18,13 @@ class Sleep extends Component {
                     "Aufpreis für Aufbettung Kind bis 14 Jahre: 19,00 € / Tag",
 
                 ],
-                //  
-                // 
-                // 
-                // 
-                // 
-                // 
                 // Zustellmöglichkeit für Babybett bis 3 Jahre: pro Kind 7,50 € / Tag
                 // Frühstück 11,00€ (8.00-11.00 Uhr)
                 // Anreise ab 14.00 Uhr, Abreise am Wochenende und Feiertagen bis 11.00 Uhr (sonst 10.00 Uhr)
                 // Thomas-Müntzer-Höhe 14
                 // 09117 Chemnitz, OT Rabenstein
                 // `,
-                link: "https://www.hotel-schloss-rabenstein.de/hotel/"
+                link: "https://www.hotel-schloss-rabenstein.de/de/"
             },
             {
                 hotel: "Campingplatz Rabenstein",

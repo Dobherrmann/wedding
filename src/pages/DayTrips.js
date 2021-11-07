@@ -4,17 +4,17 @@ import '../styles/DayTripsV2.css';
 import DresdenPic from '../pictures/IMG_1659.jpg';
 import ChemnitzPic from '../pictures/20170713_122837.jpg';
 import ErzgebirgePic from '../pictures/Erzgebirge.jpg';
-import LeipzigPic from '../pictures/BelantisLeipzig.JPG';
+import LeipzigPic from '../pictures/ZooLeipzig.JPG';
 
 class Daytrips extends Component {
     state = {
         pics: [DresdenPic, ChemnitzPic, ErzgebirgePic, LeipzigPic],
         picTitle: ["Dresden", "Chemnitz", "Erzgebirge", "Leipzig"],
         texts: [
-            `Erkundet Elbflorenz am besten bei einem Bummel durch die Altstadt vorbei an der Frauenkirche, Zwinger, Semperoper,... Besonders empfehlenswert ist ein Besuch im historischen Grünen Gewölbe, das sich im Stadtschloss befindet. In der näheren Umgebung gibt es z.B. Schloss Pillnitz oder auch das Weingut Schloss Wackerbarth zu bestaunen. Auf der Weiterreise macht unbedingt einen Stopp in der sächsische Schweiz. Mit ihren Sandsteinfelsen sollte dieses Naturerbe auf jeden Fall bei einer Wanderung erkundet werden.`,
-            `Einen Besuch ist sicher auch Chemnitz wert - immerhin europäische Kulturhauptstadt 2025-, mit einem Bummel durch die Innenstadt, einem Besuch in den Kunstsammlungen, dem Industriemuseum,… könnt ihr in ein Stück sächsische Industriegeschichte eintauchen und DDR-Architektur bewundern ;)`,
-            `Das nahe Erzgebirge bietet zahlreiche Ausflugsmöglichkeiten. Angefangen von Wanderungen auf Sachsens höchste Erhebung, dem Fichtelberg, bis zu einem Besuch unter Tage im Besucherbergwerk. Solls ein bisschen weihnachtlich werden, besucht die „Manufaktur der Träume“ in Annaberg, oder Seiffen mit seinen Schauwerkstätten und bestaunt Räuchermännchen, Schwibbögen, Nussknacker und Co.`,
-            `Last but not least ist Leipzig eine Reise wert. Als Bachstadt und Ort der friedlichen Montagsdemonstrationen 1989 hat sie geschichtlich einiges zu bieten, was ihr bei einem Bummel durch die Innenstadt erkunden könnt. Viele Cafés, Restaurants und Geschäfte laden zum Flanieren und Shoppen ein. Gerade mit Kindern sollte ein Besuch im Zoo oder der Freizeitpark Belantis Pflichtprogramm sein. Für Wasser(sport)begeisterte hält das Geflecht an Kanälen oder das Naherholungsgebiete Cospudener See viele Betätigungsmöglichkeiten bereit.`,
+            `Erkundet Elbflorenz am besten bei einem Bummel durch die Altstadt vorbei an der Frauenkirche, Zwinger, Semperoper,... Besonders empfehlenswert ist ein Besuch im historischen Grünen Gewölbe, das sich im Stadtschloss befindet oder auch in der Gemäldegalerie Alte Meister im Zwinger. In der näheren Umgebung gibt es z.B. Schloss Pillnitz oder auch das Weingut Schloss Wackerbarth zu bestaunen. Auf der Weiterreise macht unbedingt einen Stopp in der sächsische Schweiz. Mit ihren Sandsteinfelsen sollte dieses Naturerbe auf jeden Fall bei einer Wanderung erkundet werden.`,
+            `Einen Besuch ist sicher auch Chemnitz wert - immerhin europäische Kulturhauptstadt 2025! Erkundet es am besten bei einem Bummel durch die Innenstadt und lasst das besondere Flair auf euch wirken. Für alle die Museumsbegeistert sind und mehr wissen wollen sind ein Besuch im Museum Gunzenhauser mit einer der größten Otto Dix Sammlungen, dem smac (Sächsisches Landesmuseum für Architektur) oder dem Industriemuseum, wo ihr in ein Stück sächsische Industriegeschichte eintauchen könnt, zu empfehlen.`,
+            `Das nahe Erzgebirge, das erst kürzlich den Welterbe Titel verliehen bekommen hat, bietet zahlreiche Ausflugsmöglichkeiten. Angefangen von Wanderungen auf Sachsens höchste Erhebung, dem Fichtelberg, bis hin zu einem Besuch unter Tage im Besucherbergwerk. Solls ein bisschen weihnachtlich werden, besucht die „Manufaktur der Träume“ in Annaberg, oder Seiffen mit seinen Schauwerkstätten und bestaunt Räuchermännchen, Schwibbögen, Nussknacker und Co.`,
+            `Last but not least Leipzig. Als Bachstadt und Ort der friedlichen Montagsdemonstrationen 1989 hat es geschichtlich einiges zu bieten, was ihr bei einem Bummel durch die Innenstadt erkunden könnt. Viele Cafés, Restaurants und Geschäfte laden zum Flanieren und Shoppen ein. Gerade mit Kindern sollte ein Besuch im Zoo Pflichtprogramm sein. Für Wasser(sport)begeisterte hält das Geflecht an Kanälen oder das Naherholungsgebiete Cospudener See viele Betätigungsmöglichkeiten bereit.`,
         ],
         viewDetails: Array(4).fill(false),
     };
@@ -56,9 +56,7 @@ class Daytrips extends Component {
             <div className="card" key={cardKey}>
                 {/* oberer Container mit Bild*/}
                 <div className="card-pic-container">
-
                     <img src={this.state.pics[cardNumber]} className="card-daytrips-pic" alt="picture will be loaded" />
-
                     <h1 className="card-daytrips-header">{this.state.picTitle[cardNumber]}</h1>
                     <div className="card-daytrips-border"></div>
                 </div>

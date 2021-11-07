@@ -111,7 +111,7 @@
   height: 40px;
   padding: 9px 0;
   top: calc(50% - 20px);
-  background: #e4dad0;
+  /* background: #e4dad0; */
   border: 2px solid #1b2714;
   border-radius: 40px;
   text-align: center;
@@ -153,6 +153,16 @@
   font-size: 16px;
   line-height: 22px;
   color: #000000;
+}
+
+/* .fa-home{
+  background-image: url('../pictures/torte.svg') !important;
+} */
+
+.dummy{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
 @media (max-width: 767.98px) {
