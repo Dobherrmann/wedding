@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../styles/DayTripsV2.css';
 
 import DresdenPic from '../pictures/IMG_1659.jpg';
-import ChemnitzPic from '../pictures/20170713_122837.jpg';
+import ChemnitzPic from '../pictures/KarlMarx.jpeg';
 import ErzgebirgePic from '../pictures/Erzgebirge.jpg';
 import LeipzigPic from '../pictures/ZooLeipzig.JPG';
 
@@ -12,7 +12,7 @@ class Daytrips extends Component {
         picTitle: ["Dresden", "Chemnitz", "Erzgebirge", "Leipzig"],
         texts: [
             `Erkundet Elbflorenz am besten bei einem Bummel durch die Altstadt vorbei an der Frauenkirche, Zwinger, Semperoper,... Besonders empfehlenswert ist ein Besuch im historischen Grünen Gewölbe, das sich im Stadtschloss befindet oder auch in der Gemäldegalerie Alte Meister im Zwinger. In der näheren Umgebung gibt es z.B. Schloss Pillnitz oder auch das Weingut Schloss Wackerbarth zu bestaunen. Auf der Weiterreise macht unbedingt einen Stopp in der sächsische Schweiz. Mit ihren Sandsteinfelsen sollte dieses Naturerbe auf jeden Fall bei einer Wanderung erkundet werden.`,
-            `Einen Besuch ist sicher auch Chemnitz wert - immerhin europäische Kulturhauptstadt 2025! Erkundet es am besten bei einem Bummel durch die Innenstadt und lasst das besondere Flair auf euch wirken. Für alle die Museumsbegeistert sind und mehr wissen wollen sind ein Besuch im Museum Gunzenhauser mit einer der größten Otto Dix Sammlungen, dem smac (Sächsisches Landesmuseum für Architektur) oder dem Industriemuseum, wo ihr in ein Stück sächsische Industriegeschichte eintauchen könnt, zu empfehlen.`,
+            `Einen Besuch ist sicher auch Chemnitz wert - immerhin europäische Kulturhauptstadt 2025! Erkundet es am besten bei einem Bummel durch die Innenstadt und lasst das besondere Flair auf euch wirken. Für alle die Museumsbegeistert sind und mehr wissen wollen sind ein Besuch im Museum Gunzenhauser mit einer der größten Otto Dix Sammlungen, dem smac (Sächsisches Landesmuseum für Archäologie) oder dem Industriemuseum, wo ihr in ein Stück sächsische Industriegeschichte eintauchen könnt, zu empfehlen.`,
             `Das nahe Erzgebirge, das erst kürzlich den Welterbe Titel verliehen bekommen hat, bietet zahlreiche Ausflugsmöglichkeiten. Angefangen von Wanderungen auf Sachsens höchste Erhebung, dem Fichtelberg, bis hin zu einem Besuch unter Tage im Besucherbergwerk. Solls ein bisschen weihnachtlich werden, besucht die „Manufaktur der Träume“ in Annaberg, oder Seiffen mit seinen Schauwerkstätten und bestaunt Räuchermännchen, Schwibbögen, Nussknacker und Co.`,
             `Last but not least Leipzig. Als Bachstadt und Ort der friedlichen Montagsdemonstrationen 1989 hat es geschichtlich einiges zu bieten, was ihr bei einem Bummel durch die Innenstadt erkunden könnt. Viele Cafés, Restaurants und Geschäfte laden zum Flanieren und Shoppen ein. Gerade mit Kindern sollte ein Besuch im Zoo Pflichtprogramm sein. Für Wasser(sport)begeisterte hält das Geflecht an Kanälen oder das Naherholungsgebiete Cospudener See viele Betätigungsmöglichkeiten bereit.`,
         ],

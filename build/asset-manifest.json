@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.13cb8f8e.chunk.css",
-    "main.js": "/wedding/static/js/main.aa669b26.chunk.js",
-    "main.js.map": "/wedding/static/js/main.aa669b26.chunk.js.map",
+    "main.css": "/wedding/static/css/main.9aa49a50.chunk.css",
+    "main.js": "/wedding/static/js/main.f4ab76b1.chunk.js",
+    "main.js.map": "/wedding/static/js/main.f4ab76b1.chunk.js.map",
     "runtime-main.js": "/wedding/static/js/runtime-main.0d63c64a.js",
     "runtime-main.js.map": "/wedding/static/js/runtime-main.0d63c64a.js.map",
     "static/js/2.b0804827.chunk.js": "/wedding/static/js/2.b0804827.chunk.js",
@@ -10,10 +10,9 @@
     "static/js/3.dd115338.chunk.js": "/wedding/static/js/3.dd115338.chunk.js",
     "static/js/3.dd115338.chunk.js.map": "/wedding/static/js/3.dd115338.chunk.js.map",
     "index.html": "/wedding/index.html",
-    "static/css/main.13cb8f8e.chunk.css.map": "/wedding/static/css/main.13cb8f8e.chunk.css.map",
+    "static/css/main.9aa49a50.chunk.css.map": "/wedding/static/css/main.9aa49a50.chunk.css.map",
     "static/js/2.b0804827.chunk.js.LICENSE.txt": "/wedding/static/js/2.b0804827.chunk.js.LICENSE.txt",
     "static/media/20170713_122837.90450756.jpg": "/wedding/static/media/20170713_122837.90450756.jpg",
-    "static/media/BelantisLeipzig.27e4c523.JPG": "/wedding/static/media/BelantisLeipzig.27e4c523.JPG",
     "static/media/Erzgebirge.c3f33b57.jpg": "/wedding/static/media/Erzgebirge.c3f33b57.jpg",
     "static/media/IMG_0075.b217a6cf.jpg": "/wedding/static/media/IMG_0075.b217a6cf.jpg",
     "static/media/IMG_0604.068e56e9.jpg": "/wedding/static/media/IMG_0604.068e56e9.jpg",
@@ -24,8 +23,11 @@
     "static/media/IMG_1489.56e362b6.jpg": "/wedding/static/media/IMG_1489.56e362b6.jpg",
     "static/media/IMG_1659.e7a4a78d.jpg": "/wedding/static/media/IMG_1659.e7a4a78d.jpg",
     "static/media/Logo.00c5eac2.png": "/wedding/static/media/Logo.00c5eac2.png",
+    "static/media/ZooLeipzig.573250a9.JPG": "/wedding/static/media/ZooLeipzig.573250a9.JPG",
     "static/media/index.css": "/wedding/static/media/aerotis.regular.d1ee6a1f.otf",
+    "static/media/dinner.cf914479.svg": "/wedding/static/media/dinner.cf914479.svg",
     "static/media/muenster.1303a1aa.jpg": "/wedding/static/media/muenster.1303a1aa.jpg",
+    "static/media/party.69a3842f.svg": "/wedding/static/media/party.69a3842f.svg",
     "static/media/pic_1.1c3b4bfc.jpg": "/wedding/static/media/pic_1.1c3b4bfc.jpg",
     "static/media/pic_10.95624e45.jpg": "/wedding/static/media/pic_10.95624e45.jpg",
     "static/media/pic_11.c55b8179.jpg": "/wedding/static/media/pic_11.c55b8179.jpg",
@@ -36,12 +38,15 @@
     "static/media/pic_6.4150bc25.jpg": "/wedding/static/media/pic_6.4150bc25.jpg",
     "static/media/pic_7.87a1764e.jpg": "/wedding/static/media/pic_7.87a1764e.jpg",
     "static/media/pic_8.55d9cfe6.jpg": "/wedding/static/media/pic_8.55d9cfe6.jpg",
-    "static/media/pic_9.582e7ba8.jpg": "/wedding/static/media/pic_9.582e7ba8.jpg"
+    "static/media/pic_9.582e7ba8.jpg": "/wedding/static/media/pic_9.582e7ba8.jpg",
+    "static/media/sektempfang.022ed4f2.svg": "/wedding/static/media/sektempfang.022ed4f2.svg",
+    "static/media/torte.0b297bda.svg": "/wedding/static/media/torte.0b297bda.svg",
+    "static/media/trauung.fb6d84c7.svg": "/wedding/static/media/trauung.fb6d84c7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0d63c64a.js",
     "static/js/2.b0804827.chunk.js",
-    "static/css/main.13cb8f8e.chunk.css",
-    "static/js/main.aa669b26.chunk.js"
+    "static/css/main.9aa49a50.chunk.css",
+    "static/js/main.f4ab76b1.chunk.js"
   ]
 }
